@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Stopwatch</title>
+      <!-- Style Sheets -->
+      <link rel="stylesheet" href="./style.css" />
+
+      <!-- Font -->
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <nav>
+         <img src="./assets/timeLogo-final.png" alt="LOGO" />
+         <div class="right">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">History</a></li>
+               <li><a href="#">Reload</a></li>
+               <!-- <button>LOGIN</button> -->
+            </ul>
+         </div>
+      </nav>
+      <!-- <hr /> -->
+      <div class="line-style"></div>
+      <!-- loader-line -->
+      <!-- <input type="time" name="textTime" id="" /> -->
+      <div class="hero-section">
+         <div class="left-hero">
+            <div class="container">
+               <span class="minutes">00</span>min :
+               <span class="seconds">00</span>sec :
+               <span class="miliseconds">00</span>mil
+            </div>
+            <div class="container1">
+               <button id="start" onclick="start()">Start</button>
+               <button id="stop" onclick="stop()">Stop</button>
+               <button id="lap" onclick="lap()">Lap</button>
+               <br />
+               <button id="lap" onclick="reset()">Resets</button>
+            </div>
+         </div>
+         <div class="right-hero">
+            <img src="./assets/4889345.jpg" alt="" />
+         </div>
+      </div>
+   </body>
+   <!-- Javascript Code -->
+   <script src="./index.js"></script>
+</html>
